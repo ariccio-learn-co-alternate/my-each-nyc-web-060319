@@ -4,4 +4,5 @@ def my_each(collection) # put argument(s) here
     yield collection[iter]
     iter += 1
   end
+  collection
 end
